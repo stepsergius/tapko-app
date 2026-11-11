@@ -3,4 +3,4 @@
 Custom trackpad gestures for macOS. Website and downloads.
 
 - Website: https://tapko.stepanix.com
-- Download: [latest release](https://github.com/stepsergius/tapko-app/releases/latest)
+- Download: [Tapko.dmg](https://github.com/stepsergius/tapko-app/releases/latest/download/Tapko.dmg) (macOS 14 or later)
