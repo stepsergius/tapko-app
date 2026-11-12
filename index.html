@@ -81,10 +81,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .window .bar i { width: 12px; height: 12px; border-radius: 50%; display: block; }
 .window .bar i:nth-child(1) { background: #ff5f57; } .window .bar i:nth-child(2) { background: #febc2e; } .window .bar i:nth-child(3) { background: #28c840; }
 .window .bar span { margin-inline: auto; font: 600 13px var(--body); color: var(--muted); padding-right: 60px; }
-.window img { display: block; width: 100%; height: auto; }
-.shot-dark { display: none; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .shot-dark { display: block; } :root:not([data-theme="light"]) .shot-light { display: none; } }
-:root[data-theme="dark"] .shot-dark { display: block; } :root[data-theme="dark"] .shot-light { display: none; }
+.window picture, .window img { display: block; width: 100%; height: auto; }
 
 section { padding-block: 88px; }
 .center { text-align: center; display: grid; gap: 14px; justify-items: center; margin-bottom: 44px; }
@@ -195,8 +192,10 @@ footer a { text-decoration: none; } footer a:hover { color: var(--fg); }
   <div class="wrap">
     <div class="window" role="img" aria-label="Tapko settings window with four gestures and their actions">
       <div class="bar"><i></i><i></i><i></i><span>Tapko</span></div>
-      <img class="shot-light" src="assets/settings-light.png" alt="" width="1410" height="660">
-      <img class="shot-dark" src="assets/settings-dark.png" alt="" width="1410" height="660">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/settings-dark.png">
+        <img src="assets/settings-light.png" alt="" width="1410" height="660">
+      </picture>
     </div>
   </div>
 
@@ -259,8 +258,10 @@ footer a { text-decoration: none; } footer a:hover { color: var(--fg); }
       </div>
       <div class="window" style="max-width: 760px; margin-top: 40px;" role="img" aria-label="Ready-made gesture sets in Tapko">
         <div class="bar"><i></i><i></i><i></i><span>Gesture Sets</span></div>
-        <img class="shot-light" src="assets/sets-light.png" alt="" width="930" height="705">
-        <img class="shot-dark" src="assets/sets-dark.png" alt="" width="930" height="705">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/sets-dark.png">
+          <img src="assets/sets-light.png" alt="" width="930" height="705">
+        </picture>
       </div>
     </div>
   </section>
