@@ -100,7 +100,7 @@ footer a { text-decoration: none; } footer a:hover { color: var(--fg); }
   <h1>Privacy Policy</h1>
   <p class="updated">Last updated: November 12, 2026</p>
 
-  <p>Tapko is a macOS app made by Stepanix. This policy explains what data the app and this website handle. The short version: Tapko works on your Mac and does not collect or send your personal data.</p>
+  <p>Tapko is a macOS app made by Stepanix. This policy explains what data the app and this website handle. The short version: Tapko works on your Mac and does not collect your personal data.</p>
 
   <h2>The app</h2>
   <ul>
@@ -111,8 +111,13 @@ footer a { text-decoration: none; } footer a:hover { color: var(--fg); }
     <li><strong>Diagnostic log.</strong> Tapko keeps a small log file on your Mac to help fix problems. It is never sent automatically; you can choose to share it with us when asking for help.</li>
   </ul>
 
-  <h2>License activation</h2>
-  <p>When you activate Tapko Pro, the app sends your license key and your Mac's model name (for example "Mac16,12") to our payment provider to check the key and count your activations. It is checked again every few days while Pro is active. You can deactivate a Mac at any time in Tapko's settings, under About.</p>
+  <h2>Free trial and license activation</h2>
+  <p>Tapko talks to our license server (hosted on Cloudflare) in two cases:</p>
+  <ul>
+    <li><strong>Trial.</strong> To make sure the 7-day Pro trial is given once per Mac, Tapko sends a one-way hash of your Mac's hardware identifier. The hash can't be turned back into the identifier, and the server stores only the hash and the date your trial started.</li>
+    <li><strong>Pro activation.</strong> When you activate Tapko Pro, the app sends your license key and your Mac's model name (for example "Mac16,12"). The server checks the key with Creem, our payment provider, which counts your activations. The key is checked again every few days while Pro is active. You can deactivate a Mac at any time in Tapko's settings, under About.</li>
+  </ul>
+  <p>No other data is sent: not your name, gestures, settings, or anything about how you use your Mac.</p>
 
   <h2>Purchases</h2>
   <p>Tapko Pro is sold through Creem, our merchant of record. Creem processes your payment, handles taxes and sends your receipt and license key. Your payment details are handled by Creem and its payment partners under their own privacy policy; we never see your card number. We receive your name, email address, country and order details so we can provide your license and support.</p>
