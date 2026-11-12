@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Tapko</title>
+    <link>https://tapko.stepanix.com/appcast.xml</link>
+    <language>en</language>
+    <item>
+      <title>Tapko 0.2.2</title>
+      <pubDate>Thu, 12 Nov 2026 01:08:20 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+      <enclosure url="https://github.com/stepsergius/tapko-app/releases/download/v0.2.2/Tapko.dmg"
+                 length="5155845" type="application/octet-stream" sparkle:edSignature="XGP+YBi9Qo6I28hAgPcvvnCoRxB89imLRJih/kDYGijvTFaKFfbtP+c57Q7kS7+ugfQ4cLu1koz39aDxBahnCg=="/>
+    </item>
+  </channel>
+</rss>
