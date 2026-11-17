@@ -1,0 +1,63 @@
+# Tapko
+
+> Tapko adds custom trackpad gestures to your Mac: middle click, close the window under the cursor, open apps and more.
+
+Tapko turns taps, swipes, pinches and holds into the things you do all day. Middle click, close a window, open Telegram. In every app.
+
+## Facts
+
+- What it is: a menu bar app that adds custom trackpad gestures to a Mac (taps, clicks, swipes, pinches, rotations, holds, TipTap)
+- Made by: Stepanix (https://stepanix.com/), which also makes Klavko and Duesko
+- Needs: macOS 14 Sonoma or later; works with the built-in trackpad and Magic Trackpad
+- Price: free with 2 gestures at a time; Tapko Pro is $9.99 once, not a subscription
+- Trial: every new install gets all of Pro for 7 days, no key or card needed
+- Refunds: 14-day money-back guarantee
+- Download: https://github.com/stepsergius/tapko-app/releases/latest/download/Tapko.dmg
+- Website: https://tapko.stepanix.com/ (English), https://tapko.stepanix.com/uk/ (Ukrainian)
+
+## Free edition
+
+- 7 days of Pro included
+- Then 2 gestures at a time
+- All 26 actions
+- Ready-made sets
+- 11 languages
+
+## Tapko Pro
+
+- Unlimited gestures
+- Per-app rules
+- Use on up to 3 Macs
+- Free updates
+
+## Questions
+
+### Why does Tapko need Accessibility access?
+
+To click, press keys and close windows for you, macOS requires the Accessibility permission. Tapko uses it only to run the actions you set up.
+
+### macOS says it can't verify Tapko. What do I do?
+
+Tapko isn't distributed through the App Store. The first time you open it, macOS may block it. Open System Settings → Privacy & Security, scroll down and click Open Anyway. You only do this once; updates install without it.
+
+### Will it clash with the system gestures?
+
+Tapko warns you when a gesture is also used by macOS, for example a three finger swipe, and opens the trackpad settings so you can turn the system one off.
+
+### Is there a free trial?
+
+Yes. Every new install gets all Pro features for 7 days, with no key or card needed. After that Tapko keeps working as the free version with 2 gestures, unless you buy Pro.
+
+### How do I activate Pro?
+
+After you buy, you get a license key by email. Paste it in Tapko → Settings → About.
+
+### Can I get a refund?
+
+Yes. If Tapko doesn't work for you, write within 14 days of purchase and you'll get your money back.
+
+## Pages
+
+- [Tapko](https://tapko.stepanix.com/): gestures, features, pricing and questions
+- [Privacy](https://tapko.stepanix.com/privacy.html): what data the app and the site handle
+- [Terms](https://tapko.stepanix.com/terms.html): licence and refunds
