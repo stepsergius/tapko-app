@@ -36,9 +36,9 @@ Tapko turns taps, swipes, pinches and holds into the things you do all day. Midd
 
 To click, press keys and close windows for you, macOS requires the Accessibility permission. Tapko uses it only to run the actions you set up.
 
-### macOS says it can't verify Tapko. What do I do?
+### Does Tapko update itself?
 
-Tapko isn't distributed through the App Store. The first time you open it, macOS may block it. Open System Settings → Privacy & Security, scroll down and click Open Anyway. You only do this once; updates install without it.
+Yes. Once a day Tapko checks for a new version and installs it after you agree. You can also check from the menu bar (Check for Updates…) or turn automatic checks off in Settings → About.
 
 ### Will it clash with the system gestures?
 

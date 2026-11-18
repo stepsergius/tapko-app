@@ -5,14 +5,16 @@
     <link>https://tapko.stepanix.com/appcast.xml</link>
     <language>en</language>
     <item>
-      <title>Tapko 0.2.2</title>
-      <pubDate>Thu, 12 Nov 2026 01:08:20 +0000</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <title>Tapko 0.2.3</title>
+      <pubDate>Wed, 18 Nov 2026 10:37:43 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-
-      <enclosure url="https://github.com/stepsergius/tapko-app/releases/download/v0.2.2/Tapko.dmg"
-                 length="5155845" type="application/octet-stream" sparkle:edSignature="XGP+YBi9Qo6I28hAgPcvvnCoRxB89imLRJih/kDYGijvTFaKFfbtP+c57Q7kS7+ugfQ4cLu1koz39aDxBahnCg=="/>
+      <description><![CDATA[<ul>
+<li>Tapko is now signed with a Developer ID and notarized by Apple, so macOS opens it without warnings.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/stepsergius/tapko-app/releases/download/v0.2.3/Tapko.dmg"
+                 length="5251017" type="application/octet-stream" sparkle:edSignature="+Ofc3/hUzRahCN9eT+Qq7Gno8eGdmZSfiTQoO+YMxmA9xv3amLZ8ocULchfHYwtECYsIajoy4XJLiVGEa93YCA=="/>
     </item>
   </channel>
 </rss>
