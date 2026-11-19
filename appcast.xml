@@ -6,12 +6,53 @@
     <language>en</language>
     <item>
       <title>Tapko 0.2.3</title>
-      <pubDate>Wed, 18 Nov 2026 10:37:43 +0000</pubDate>
+      <pubDate>Thu, 19 Nov 2026 09:50:11 +0000</pubDate>
       <sparkle:version>5</sparkle:version>
       <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul>
-<li>Tapko is now signed with a Developer ID and notarized by Apple, so macOS opens it without warnings.</li>
+      <description xml:lang="en"><![CDATA[<h3>What’s new in Tapko 0.2.3</h3>
+<ul>
+<li>Tapko is now signed with an Apple Developer ID and notarized by Apple, so macOS opens it without the “can’t verify” warning.</li>
+</ul>]]></description>
+      <description xml:lang="de"><![CDATA[<h3>Neu in Tapko 0.2.3</h3>
+<ul>
+<li>Tapko ist jetzt mit einer Apple Developer ID signiert und von Apple notarisiert. macOS öffnet die App daher ohne die Warnung, dass sie nicht überprüft werden kann.</li>
+</ul>]]></description>
+      <description xml:lang="es"><![CDATA[<h3>Novedades de Tapko 0.2.3</h3>
+<ul>
+<li>Tapko ahora está firmado con un Developer ID de Apple y notarizado por Apple, así que macOS lo abre sin el aviso de que no se puede verificar.</li>
+</ul>]]></description>
+      <description xml:lang="fr"><![CDATA[<h3>Nouveautés de Tapko 0.2.3</h3>
+<ul>
+<li>Tapko est désormais signé avec un Developer ID Apple et notarié par Apple : macOS l’ouvre sans l’avertissement indiquant qu’il ne peut pas être vérifié.</li>
+</ul>]]></description>
+      <description xml:lang="it"><![CDATA[<h3>Novità di Tapko 0.2.3</h3>
+<ul>
+<li>Tapko ora è firmato con un Developer ID di Apple e autenticato da Apple, quindi macOS lo apre senza l’avviso che non è possibile verificarlo.</li>
+</ul>]]></description>
+      <description xml:lang="ja"><![CDATA[<h3>Tapko 0.2.3 の新機能</h3>
+<ul>
+<li>Tapko は Apple Developer ID で署名され、Apple による公証を受けました。macOS は「検証できません」という警告を表示せずに開きます。</li>
+</ul>]]></description>
+      <description xml:lang="ko"><![CDATA[<h3>Tapko 0.2.3의 새로운 기능</h3>
+<ul>
+<li>이제 Tapko는 Apple Developer ID로 서명되고 Apple의 공증을 받았습니다. macOS에서 ‘확인할 수 없음’ 경고 없이 열립니다.</li>
+</ul>]]></description>
+      <description xml:lang="pl"><![CDATA[<h3>Nowości w Tapko 0.2.3</h3>
+<ul>
+<li>Tapko jest teraz podpisane certyfikatem Apple Developer ID i poświadczone notarialnie przez Apple, więc macOS otwiera je bez ostrzeżenia, że nie można go zweryfikować.</li>
+</ul>]]></description>
+      <description xml:lang="pt"><![CDATA[<h3>Novidades do Tapko 0.2.3</h3>
+<ul>
+<li>O Tapko agora é assinado com um Developer ID da Apple e notarizado pela Apple, então o macOS abre o app sem o aviso de que ele não pode ser verificado.</li>
+</ul>]]></description>
+      <description xml:lang="uk"><![CDATA[<h3>Що нового в Tapko 0.2.3</h3>
+<ul>
+<li>Tapko тепер підписано сертифікатом Apple Developer ID і нотаризовано Apple, тож macOS відкриває його без попередження, що програму не вдалося перевірити.</li>
+</ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<h3>Tapko 0.2.3 新功能</h3>
+<ul>
+<li>Tapko 现已使用 Apple Developer ID 签名并通过 Apple 公证，macOS 打开它时不再显示“无法验证”的警告。</li>
 </ul>]]></description>
       <enclosure url="https://github.com/stepsergius/tapko-app/releases/download/v0.2.3/Tapko.dmg"
                  length="5251017" type="application/octet-stream" sparkle:edSignature="+Ofc3/hUzRahCN9eT+Qq7Gno8eGdmZSfiTQoO+YMxmA9xv3amLZ8ocULchfHYwtECYsIajoy4XJLiVGEa93YCA=="/>
